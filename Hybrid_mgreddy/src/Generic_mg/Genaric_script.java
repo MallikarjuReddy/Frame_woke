@@ -16,7 +16,7 @@ public void open_app() throws InterruptedException
 	System.setProperty(gecko_key,gecko_value);
 	driver = new FirefoxDriver();
 	//louching browser
-	driver.get(url);// its Facebook URL
+	driver.get(url);// it is Facebook URL
 	Thread.sleep(1000);
 	Assert.fail();
 }

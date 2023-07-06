@@ -14,7 +14,7 @@ public void login()
 	String un=Fetch_data.Get_data("Sheet1", 0, 0);
 	String pwd=Fetch_data.Get_data("Sheet1", 0, 1);
 	Pom p = new Pom(driver);
-	p.pasun(un);
+	p.pasun(un);//mgreddy
 	p.psw(pwd);
 	p.login();
 	

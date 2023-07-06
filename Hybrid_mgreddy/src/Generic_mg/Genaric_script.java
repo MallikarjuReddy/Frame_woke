@@ -15,7 +15,8 @@ public void open_app() throws InterruptedException
 {
 	System.setProperty(gecko_key,gecko_value);
 	driver = new FirefoxDriver();
-	driver.get(url);
+	//louching browser
+	driver.get(url);// it is login page
 	Thread.sleep(1000);
 	Assert.fail();
 }
